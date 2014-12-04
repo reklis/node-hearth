@@ -1,4 +1,4 @@
-# datapipe
+# hearth
 
 Stupid simple json test data stream generator
 
