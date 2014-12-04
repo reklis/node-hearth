@@ -1,8 +1,12 @@
 {
-  "name": "datapipe",
+  "name": "hearth",
   "version": "1.0.0",
   "main": "datapipe.js",
   "bin": {
     "datapipe": "./datapipe.js"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/reklis/node-hearth.git"
   }
 }

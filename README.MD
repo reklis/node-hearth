@@ -1,13 +1,13 @@
 # datapipe
 
-Stupid simple json test data stream generator.
+Stupid simple json test data stream generator
 
 
 ## Installation and Usage
 
-    npm i -g datapipe
+    npm i -g node-hearth
 
-    datapipe myconfig.json
+    hearth myconfig.json
 
 ## Quick Reference
 
