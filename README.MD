@@ -26,3 +26,4 @@ Stupid simple json test data stream generator
 
 - root level array support
 - emoji / unicode / geo datasets
+- read config from stdin stream
