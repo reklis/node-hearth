@@ -5,7 +5,7 @@ Stupid simple json test data stream generator
 
 ## Installation and Usage
 
-    npm i -g node-hearth
+    npm i -g hearth
 
     hearth myconfig.json
 

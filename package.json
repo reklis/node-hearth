@@ -1,9 +1,9 @@
 {
   "name": "hearth",
   "version": "1.0.0",
-  "main": "datapipe.js",
+  "main": "cli.js",
   "bin": {
-    "datapipe": "./datapipe.js"
+    "hearth": "./cli.js"
   },
   "repository" : {
     "type" : "git",
