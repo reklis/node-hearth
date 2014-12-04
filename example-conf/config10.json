@@ -1,0 +1,27 @@
+{
+  "interval" : 120,
+  "schema" : [
+    { "name" : "page_url", "type" : "string", "value" : "http://eie.io/page", "suffix" : true },
+    { "name" : "lb", "type" : "list", "entity" : "referrer", "count" : 10 }
+  ],
+  "entities" : {
+    "referrer" : [
+      { "name" : "domain",
+        "type" : "randomselection",
+        "options" : [
+          "bloomberg.com",
+          "facebook.com",
+          "google.com",
+          "twitter.com",
+          "nyt.com",
+          "washingtonpost.com",
+          "aljazeera.com",
+          "huffingtonpost.com",
+          "theonion.com",
+          "sfgate.com"
+        ]
+      },
+      { "name" : "numUniques", "type" : "int", "min" : 1000, "max" : 10000}
+    ]
+  }
+}

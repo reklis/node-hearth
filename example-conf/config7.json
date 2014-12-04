@@ -1,0 +1,12 @@
+{
+  "interval" : 5000,
+  "schema" : [
+    { "name" : "lb", "type" : "list", "entity" : "device", "count" : 10 }
+  ],
+  "entities" : {
+    "device" : [
+      { "name" : "device", "type" : "string", "value" : "useragent ", "suffix" : { "index" : true } },
+      { "name" : "numViews", "type" : "int", "min" : 100, "max" : 10000 }
+    ]
+  }
+}

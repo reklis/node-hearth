@@ -1,0 +1,6 @@
+{
+  "interval" : 1000,
+  "schema" : [
+    { "name" : "name", "type" : "lipsum" }
+  ]
+}

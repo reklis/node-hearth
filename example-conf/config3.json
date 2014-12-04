@@ -1,0 +1,13 @@
+{
+  "interval" : 5000,
+  "schema" : [
+    { "name" : "lb", "type" : "list", "entity" : "page", "count" : 50 }
+  ],
+  "entities" : {
+    "page" : [
+      { "name" : "name", "type" : "string", "value" : "Story", "suffix" : { "index" : true } },
+      { "name" : "url", "type" : "string", "value" : "http://eie.io/page", "suffix" : { "index" : true } },
+      { "name" : "numViews", "type" : "int", "min" : 100, "max" : 10000 }
+    ]
+  }
+}

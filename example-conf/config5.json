@@ -1,0 +1,12 @@
+{
+  "interval" : 5000,
+  "schema" : [
+    { "name" : "lb", "type" : "list", "entity" : "searchterm", "count" : 25 }
+  ],
+  "entities" : {
+    "searchterm" : [
+      { "name" : "term", "type" : "string", "value" : "searchterm", "suffix" : { "index" : true } },
+      { "name" : "numViews", "type" : "int", "min" : 100, "max" : 10000 }
+    ]
+  }
+}

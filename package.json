@@ -1,0 +1,8 @@
+{
+  "name": "datapipe",
+  "version": "1.0.0",
+  "main": "datapipe.js",
+  "bin": {
+    "datapipe": "./datapipe.js"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "interval" : 120,
+  "schema" : [
+    { "name" : "top_contributors",
+      "type" : "list",
+      "entity" : "person",
+      "count" : 10
+    }
+  ],
+  "entities" : {
+    "person" : [
+      { "name" : "full_name",
+        "type" : "lipsum",
+        "min" : 2,
+        "max" : 3
+      },
+      { "name" : "current_location",
+        "type" : "randomselection",
+        "options" : [
+          "Austin",
+          "Seattle",
+          "New York",
+          "Tokyo",
+          "Paris",
+          "London"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "interval" : 5000,
+  "schema" : [
+    { "name" : "lb", "type" : "list", "entity" : "referrer", "count" : 10 }
+  ],
+  "entities" : {
+    "referrer" : [
+      { "name" : "domain", "type" : "string", "value" : ".domain.tld", "prefix" : { "index" : true } },
+      { "name" : "numUniques", "type" : "int", "min" : 100, "max" : 200 }
+    ]
+  }
+}

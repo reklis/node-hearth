@@ -1,0 +1,7 @@
+{
+  "interval" : 5000,
+  "schema" : [
+    { "name" : "total_num_page_views", "type" : "int", "min" : 10, "max" : 100 },
+    { "name" : "total_unique_browsers", "type" : "int", "min" : 40, "max" : 100 }
+  ]
+}
