@@ -1,12 +1,18 @@
 {
   "name": "hearth",
-  "version": "1.0.1",
-  "main": "cli.js",
+  "version": "1.0.2",
+  "main": "factory.js",
   "bin": {
     "hearth": "./cli.js"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/reklis/node-hearth.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reklis/node-hearth.git"
+  },
+  "scripts": {
+    "test": "nodeunit test.js"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.0"
   }
 }
